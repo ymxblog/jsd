@@ -1,9 +1,28 @@
-# jsDelivr镜像站
-这是一个基于Vercel反向代理的易用的jsDelivr镜像站。
+# jsDelivr 镜像站
 
-## 使用
-单击此按钮快捷部署：[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rong6/jsd&project-name=jsd&repository-name=jsd)   
-注意：**Vercel默认域名已被墙，请自行绑定域名！**    
+一个简洁高效的 jsDelivr 镜像站，基于 Vercel Edge Functions。
 
-## License
-本仓库遵循[MIT License](https://github.com/rong6/jsd/blob/main/LICENSE)。
+## 特性
+
+- **安全防护**：支持设置仓库、站点黑白名单、文件类型和大小限制
+- **性能优化**：智能缓存，自动压缩，完整 CORS 支持
+- **简易配置**：集中配置，部署便捷
+
+
+## 开始使用   
+
+请[Frok本仓库](https://github.com/rong6/jsd/fork)，编辑[config.js](config.js) (可参考[config.js.example](config.js.example))，然后打开Vercel进行部署。
+
+要使用镜像站，请将原始的 jsDelivr 链接如：
+```
+https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js
+```
+
+替换为：
+```
+https://your-domain.vercel.app/npm/jquery@3.6.4/dist/jquery.min.js
+``` 
+
+## 许可证
+
+MIT License - 详见 [LICENSE](LICENSE) 文件
