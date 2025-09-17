@@ -10,10 +10,10 @@ export const CONFIG = {
     ALLOWED_EXTENSIONS: [],
 
     // 缓存设置
-    CACHE_MAX_AGE: 24 * 60 * 60 * 60, // 24小时 (单位：秒)
+    CACHE_MAX_AGE: 24 * 60 * 60, // 24小时 (单位：秒)
 
     // 黑白名单模式: 'blacklist' | 'whitelist' | 'none'
-    LIST_MODE: 'none',
+    LIST_MODE: 'whitelist',
 
     // GitHub 仓库配置 (格式: 'owner/repo')
     GITHUB_REPOS: {
@@ -22,6 +22,7 @@ export const CONFIG = {
         ],
         // 白名单模式时使用 (只允许这些仓库)
         whitelist: [
+            'ymxblog/CDN'
         ]
     },
 
