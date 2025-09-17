@@ -13,7 +13,7 @@ export const CONFIG = {
     CACHE_MAX_AGE: 24 * 60 * 60, // 24小时 (单位：秒)
 
     // 黑白名单模式: 'blacklist' | 'whitelist' | 'none'
-    LIST_MODE: 'none',
+    LIST_MODE: 'whitelist',
 
     // GitHub 仓库配置 (格式: 'owner/repo')
     GITHUB_REPOS: {
