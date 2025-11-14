@@ -10,7 +10,7 @@ export const CONFIG = {
     ALLOWED_EXTENSIONS: [],
 
     // 缓存设置
-    CACHE_MAX_AGE: 24 * 60 * 60 * 60, // 24小时 (单位：秒)
+    CACHE_MAX_AGE: 24 * 60 * 60 * 30, // 30天 (单位：秒)
 
     // 黑白名单模式: 'blacklist' | 'whitelist' | 'none'
     LIST_MODE: 'none',
